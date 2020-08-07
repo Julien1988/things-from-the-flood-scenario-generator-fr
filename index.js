@@ -263,52 +263,52 @@ const type_of_scenario = {
 
 const clues = {
     Des_gens: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Enfants fanfarons',
+        'Adolescents paniqués',
+        'Mission secrète',
+        'Promenades nocturnes',
+        'Vague de cambriolages',
+        'Nouveaux plannings de travail'
     ],
     Des_animaux: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Modification du comportement des troupeaux',
+        'Animaux terrifiés',
+        'Animaux agressifs',
+        'Disparition d’animaux de compagnie',
+        'Animaux doués de parole',
+        'Animaux morts'
     ],
     Des_creatures: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Prédateur monstrueux',
+        'Extra-terrestres',
+        'Créature sortie d’un film d’horreur',
+        'Fantômes',
+        'Créatures féeriques',
+        'Jouets animés'
     ],
     Des_impressions: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Lumières étranges',
+        'Sons mystérieux',
+        'Odeur entêtante',
+        'Oreilles bouchées',
+        'Goût métallique dans la bouche',
+        'Hallucinations'
     ],
     Des_objets: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Tentes et traces de campement',
+        'Arme chargée',
+        'Outils perdus',
+        'Disparition de pièces mécaniques',
+        'Coffre rempli de pièces',
+        'Livre énigmatique'
     ],
     Des_evenements: [
-        'test',
-        'test',
-        'test',
-        'test',
-        'test',
-        'test'
+        'Pouvoirs surnaturels',
+        'Prophétie',
+        'Maladie',
+        'Objets volants',
+        'Coupure de courant',
+        'Interférences à la radio'
     ],
 
 }
