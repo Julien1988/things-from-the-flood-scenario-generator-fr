@@ -1,0 +1,11 @@
+{
+  "name": "things-from-the-flood-scenario-generator-fr",
+  "version": "1.0.0",
+  "description": "a scenario generator for things from the loop, the role playing game (vf)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tftl"
+  },
+  "author": "Julien1988",
+  "license": "ISC"
+}
