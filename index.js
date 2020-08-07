@@ -16,7 +16,7 @@ const antagonist = {
         'Groupe de petits nuisibles',
         'Oiseaux sauvages'
     ],
-    Végétal: [
+    Vegetal: [
         'Plantes empoisonnées',
         'Plantes intelligentes',
         'Plantes carnivores',
@@ -40,7 +40,7 @@ const antagonist = {
         'Super ordinateur',
         'Esprit ruchet'
     ],
-    Créature: [
+    Creature: [
         'Animal préhistorique',
         'Mort-vivant',
         'Monstre mythique',
@@ -133,7 +133,7 @@ const behaviour = {
 }
 
 const phenomena = {
-    Événements: [
+    Evenements: [
         'Modification de la gravité',
         'Apparition d’une autre dimension',
         'Eau bouillonnante',
@@ -278,7 +278,7 @@ const clues = {
         'test',
         'test'
     ],
-    Des_créatures: [
+    Des_creatures: [
         'test',
         'test',
         'test',
@@ -302,7 +302,7 @@ const clues = {
         'test',
         'test'
     ],
-    Des_évènements: [
+    Des_evenements: [
         'test',
         'test',
         'test',
