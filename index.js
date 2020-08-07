@@ -215,5 +215,24 @@ const phenomena = {
     ]
 }
 
+const organizations_involved = {
+    Organisation = [
+        'Puissance étrangère',
+        'Secte ou culte',
+        'Riksenergi [DARPA]',
+        'FOA [DART]',
+        'Armée ou police',
+        'Puissance surnaturelle'
+    ],
+    Implication = [
+        'Responsabilité',
+        'Enquête',
+        'Protection',
+        'Contrôle',
+        'Auteur',
+        'Incident'
+    ],
+}
 
-console.log(behaviour)
+
+console.log(phenomena)
