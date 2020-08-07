@@ -1,5 +1,5 @@
-const antagonist = {
-    Humain: [
+const antagonist = [
+    Humain = [
         'Savant névrosé',
         'Serviteur captif',
         'Philanthrope fou',
@@ -8,7 +8,7 @@ const antagonist = {
         'Artiste passionné'
 
     ],
-    Animal: [
+    Animal = [
         'Insectes',
         'Prédateur',
         'Herbivores craintifs',
@@ -16,7 +16,7 @@ const antagonist = {
         'Groupe de petits nuisibles',
         'Oiseaux sauvages'
     ],
-    Vegetal: [
+    Vegetal = [
         'Plantes empoisonnées',
         'Plantes intelligentes',
         'Plantes carnivores',
@@ -24,7 +24,7 @@ const antagonist = {
         'Lianes étrangleuses',
         'Spores ou pollen'
     ],
-    Machine: [
+    Machine = [
         'Turbine flottante',
         'Poteau ou antenne',
         'Machine souterraine',
@@ -32,7 +32,7 @@ const antagonist = {
         'Sphère d’écho ou cube',
         'Anneaux de vibration'
     ],
-    Intelligence_artificielle: [
+    Intelligence_artificielle = [
         'Cyborg',
         'Virus informatique',
         'Nano robots',
@@ -40,7 +40,7 @@ const antagonist = {
         'Super ordinateur',
         'Esprit ruchet'
     ],
-    Creature: [
+    Creature = [
         'Animal préhistorique',
         'Mort-vivant',
         'Monstre mythique',
@@ -48,10 +48,10 @@ const antagonist = {
         'Entité paranormale',
         'Extraterrestres'
     ]
-}
+]
 
-const behaviour = {
-    Motivation: [
+const behaviour = [
+    Motivation = [
         'Célébrité',
         'Vaincre un ennemi',
         'Former une nouvelle famille',
@@ -91,7 +91,7 @@ const behaviour = {
 
 
     ],
-    Instinct: [
+    Instinct = [
         'Sanguinaire',
         'Chagrin insondable',
         'Retrouver son troupeau',
@@ -130,10 +130,10 @@ const behaviour = {
         'Éradication'
 
     ]
-}
+]
 
-const phenomena = {
-    Evenements: [
+const phenomena = [
+    Evenements = [
         'Modification de la gravité',
         'Apparition d’une autre dimension',
         'Eau bouillonnante',
@@ -174,7 +174,7 @@ const phenomena = {
 
 
     ],
-    Anomalies: [
+    Anomalies = [
         'Réactions allergiques',
         'Implants cybernétiques',
         'Dopage',
@@ -213,10 +213,10 @@ const phenomena = {
         'Légende urbaine',
 
     ]
-}
+]
 
-const organizations_involved = {
-    Organisation: [
+const organizations_involved = [
+    Organisation = [
         'Puissance étrangère',
         'Secte ou culte',
         'Riksenergi [DARPA]',
@@ -224,7 +224,7 @@ const organizations_involved = {
         'Armée ou police',
         'Puissance surnaturelle'
     ],
-    Implication: [
+    Implication = [
         'Responsabilité',
         'Enquête',
         'Protection',
@@ -232,7 +232,7 @@ const organizations_involved = {
         'Auteur',
         'Incident'
     ],
-}
+]
 
 const type_of_scenario = {
     Genre: [
@@ -574,4 +574,47 @@ const creatures = {
 
 }
 
-console.log(creatures)
+const getRandomInt = (max) => {
+    return Math.floor(Math.random() * Math.floor(max));
+}
+
+const generator = () => {
+    // Random Antagonist
+    const randomAntagonistCategory = getRandomInt(antagonist.length);
+    const randomAntagonist = getRandomInt(antagonist[randomAntagonistCategory].length);
+    const getRandomAntagonist = antagonist[randomAntagonistCategory][randomAntagonist];
+    console.log(getRandomAntagonist)
+    // Motivation or Instinct
+    const randomBehaviourCategory = getRandomInt(behaviour.length);
+    const randomBehaviour = getRandomInt(behaviour[randomBehaviourCategory].length);
+    const getRandomBehaviour = behaviour[randomBehaviourCategory][randomBehaviour];
+    console.log(getRandomBehaviour);
+    // Event & Anomalies
+    // -- Event
+    const randomEvent = getRandomInt(phenomena[0].length);
+    const getRandomEvent = phenomena[0][randomEvent];
+    console.log(getRandomEvent)
+    // - Anomalies
+    const randomAnomalies = getRandomInt(phenomena[1].length);
+    const getRandomAnomalies = phenomena[1][randomAnomalies];
+    console.log(getRandomAnomalies);
+    // Organisation & Implications
+    // -- Organisation
+    //console.log(organizations_involved);
+    const randomOrganisation = getRandomInt(organizations_involved[0].length);
+    const getRandomOrganisation = organizations_involved[0][randomOrganisation];
+    console.log(getRandomOrganisation)
+    // -- Implications 
+    const randomImplication = getRandomInt(organizations_involved[1].length);
+    const getRandomImplication = organizations_involved[1][randomImplication];
+    console.log(getRandomImplication);
+
+
+
+
+
+
+
+}
+
+generator()
