@@ -216,7 +216,7 @@ const phenomena = {
 }
 
 const organizations_involved = {
-    Organisation = [
+    Organisation: [
         'Puissance étrangère',
         'Secte ou culte',
         'Riksenergi [DARPA]',
@@ -224,7 +224,7 @@ const organizations_involved = {
         'Armée ou police',
         'Puissance surnaturelle'
     ],
-    Implication = [
+    Implication: [
         'Responsabilité',
         'Enquête',
         'Protection',
@@ -235,7 +235,7 @@ const organizations_involved = {
 }
 
 const type_of_scenario = {
-    Genre = [
+    Genre: [
         'Détective, mystère',
         'Aventure, détective',
         'Drame, policier',
@@ -243,7 +243,7 @@ const type_of_scenario = {
         'Action, thriller',
         'Horreur, thriller'
     ],
-    Introduction = [
+    Introduction: [
         '« Le club des détectives » – enquête',
         '« Les têtes brûlées » – aventure',
         '« Les curieux » – divulgation',
@@ -251,7 +251,7 @@ const type_of_scenario = {
         '« Les sauveurs » – héroïsme ',
         '« Dans les griffes de la terreur » – peur'
     ],
-    Confrontation = [
+    Confrontation: [
         '« L’arrestation » – dévoiler la vérité',
         '« Plus forts que jamais » – surmonter sa peur',
         '« La vérité » – soif de connaissance',
@@ -261,5 +261,57 @@ const type_of_scenario = {
     ],
 }
 
+const clues = {
+    Des_gens: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
+    Des_animaux: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
+    Des_créatures: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
+    Des_impressions: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
+    Des_objets: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
+    Des_évènements: [
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test'
+    ],
 
-console.log(phenomena)
+}
+
+
+console.log(clues)
