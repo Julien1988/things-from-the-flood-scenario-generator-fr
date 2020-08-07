@@ -470,3 +470,108 @@ const npc_personality = {
         'Curiosité'
     ],
 }
+
+const creatures = {
+    Rongeur: [
+        'Discret 2', 'Vigilant 2', 'Esprit de meute 2'
+    ],
+    Lievre_Renard: [
+        'Rapide 3'
+    ],
+    Rapace: [
+        'Vol 3', 'Bec acéré 2'
+    ],
+    Chien_de_chasse: [
+        'Morsure féroce 2', 'Rapide 2'
+    ],
+    Chien_de_garde: [
+        'Excellente ouïe 2', 'Morsure féroce 2', 'Loyal 3'
+    ],
+    Loup: [
+        'Esprit de meute 2', 'Morsure féroce 2', 'Odorat 2'
+    ],
+    Glouton_Blaireau: [
+        'Morsure féroce 3', 'Tenace 2'
+    ],
+    Chevreuil_Cheval: [
+        'Vigilant 2', 'Rapide 2'
+    ],
+    Elan_Cerf: [
+        'Gros 2', 'Ramure perforante 2'
+    ],
+    Ours: [
+        'Gros 2', 'Morsure féroce 3', 'Griffes acérées 2'
+    ],
+    Serrure_electronique: [
+        'Mécanisme complexe 2'
+    ],
+    Systeme_d_alarme: [
+        'Capteurs perfectionnés 2'
+    ],
+    Systeme_de_surveillance: [
+        'Détecteur de mouvements 2'
+    ],
+    Robot_de_securite: [
+        'Capteurs perfectionnés 2', 'Structure métallique 2'
+    ],
+    Cargo_Robot_pompier: [
+        'Hydrauliques puissants 2', 'Châssis massif 3', 'Structure métallique 3'
+    ],
+    Drone_de_surveillance: [
+        'Capteurs perfectionnés 3', 'Vol 2'
+    ],
+    Petit_dinosaure: [
+        'Rapide 2'
+    ],
+    Velociraptor: [
+        'Bête féroce 3', 'Rapide comme l’éclair 3'
+    ],
+    Pterodactyle: [
+        'Bête féroce 2', 'Vol 2'
+    ],
+    Stegosaure_TRex: [
+        'Bête féroce 3', 'Tenace 2'
+    ],
+    Zombie: [
+        'Mort-vivant 2', 'Excellente ouïe 2'
+    ],
+    Momie: [
+        'Mort-vivant 3'
+    ],
+    Fantome: [
+        'Invisible 2', 'Terrifiant 2'
+    ],
+    Poltergeist: [
+        'Invisible 3', 'Terrifiant 2', 'Télékinésie 2'
+    ],
+    Plante_carnivore_geante: [
+        'Terrifiant 2', 'Séduction 2'
+    ],
+    Lianes_empoisonnees: [
+        'Terrifiant 2', 'Tentacules empoisonnés 2', 'Nuage de spores 2'
+    ],
+    Plante_humanoide: [
+        'Tentacules 2', 'Camouflage 2', 'info3'
+    ],
+    Monstre_a_tentacules: [
+        'Terrifiant 3', 'Tentacules visqueux 3'
+    ],
+    Myriapode_geant: [
+        'Terrifiant 3', 'Morsure féroce 2', 'Massif 2'
+    ],
+    Lutin_Gobelin: [
+        'Invisible 2', 'Sournois 2', 'info3'
+    ],
+    Gelee_informe: [
+        'Terrifiant 2', 'Vision fantasmagorique 2', 'Malléable 3'
+    ],
+    Creature_venue_d_un_portail_OW1: [
+        'Terrifiant 2', 'Force surhumaine 3'
+    ],
+    Creature_venue_d_une_autre_dimension_DIM9: [
+        'Terrifiant 2', 'Massif 3', 'Tentacules 2'
+    ]
+
+}
+
+console.log(creatures)
