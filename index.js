@@ -234,5 +234,32 @@ const organizations_involved = {
     ],
 }
 
+const type_of_scenario = {
+    Genre = [
+        'Détective, mystère',
+        'Aventure, détective',
+        'Drame, policier',
+        'Aventure, mystère',
+        'Action, thriller',
+        'Horreur, thriller'
+    ],
+    Introduction = [
+        '« Le club des détectives » – enquête',
+        '« Les têtes brûlées » – aventure',
+        '« Les curieux » – divulgation',
+        '« Les archéologues » – découverte',
+        '« Les sauveurs » – héroïsme ',
+        '« Dans les griffes de la terreur » – peur'
+    ],
+    Confrontation = [
+        '« L’arrestation » – dévoiler la vérité',
+        '« Plus forts que jamais » – surmonter sa peur',
+        '« La vérité » – soif de connaissance',
+        '« Collection » – exhiber son trophée',
+        '« Gratitude » – reconnaissance',
+        '« La vie » – survivre'
+    ],
+}
+
 
 console.log(phenomena)
