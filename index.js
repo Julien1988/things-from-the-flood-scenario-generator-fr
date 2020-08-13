@@ -1,5 +1,5 @@
-const antagonist = {
-    Humain: [
+const antagonist = [
+    Humain = [
         'Savant névrosé',
         'Serviteur captif',
         'Philanthrope fou',
@@ -8,7 +8,7 @@ const antagonist = {
         'Artiste passionné'
 
     ],
-    Animal: [
+    Animal = [
         'Insectes',
         'Prédateur',
         'Herbivores craintifs',
@@ -16,7 +16,7 @@ const antagonist = {
         'Groupe de petits nuisibles',
         'Oiseaux sauvages'
     ],
-    Vegetal: [
+    Vegetal = [
         'Plantes empoisonnées',
         'Plantes intelligentes',
         'Plantes carnivores',
@@ -24,7 +24,7 @@ const antagonist = {
         'Lianes étrangleuses',
         'Spores ou pollen'
     ],
-    Machine: [
+    Machine = [
         'Turbine flottante',
         'Poteau ou antenne',
         'Machine souterraine',
@@ -32,7 +32,7 @@ const antagonist = {
         'Sphère d’écho ou cube',
         'Anneaux de vibration'
     ],
-    Intelligence_artificielle: [
+    Intelligence_artificielle = [
         'Cyborg',
         'Virus informatique',
         'Nano robots',
@@ -40,7 +40,7 @@ const antagonist = {
         'Super ordinateur',
         'Esprit ruchet'
     ],
-    Creature: [
+    Creature = [
         'Animal préhistorique',
         'Mort-vivant',
         'Monstre mythique',
@@ -48,10 +48,10 @@ const antagonist = {
         'Entité paranormale',
         'Extraterrestres'
     ]
-}
+]
 
-const behaviour = {
-    Motivation: [
+const behaviour = [
+    Motivation = [
         'Célébrité',
         'Vaincre un ennemi',
         'Former une nouvelle famille',
@@ -91,7 +91,7 @@ const behaviour = {
 
 
     ],
-    Instinct: [
+    Instinct = [
         'Sanguinaire',
         'Chagrin insondable',
         'Retrouver son troupeau',
@@ -130,10 +130,10 @@ const behaviour = {
         'Éradication'
 
     ]
-}
+]
 
-const phenomena = {
-    Evenements: [
+const phenomena = [
+    Evenements = [
         'Modification de la gravité',
         'Apparition d’une autre dimension',
         'Eau bouillonnante',
@@ -174,7 +174,7 @@ const phenomena = {
 
 
     ],
-    Anomalies: [
+    Anomalies = [
         'Réactions allergiques',
         'Implants cybernétiques',
         'Dopage',
@@ -213,10 +213,10 @@ const phenomena = {
         'Légende urbaine',
 
     ]
-}
+]
 
-const organizations_involved = {
-    Organisation: [
+const organizations_involved = [
+    Organisation = [
         'Puissance étrangère',
         'Secte ou culte',
         'Riksenergi [DARPA]',
@@ -224,7 +224,7 @@ const organizations_involved = {
         'Armée ou police',
         'Puissance surnaturelle'
     ],
-    Implication: [
+    Implication = [
         'Responsabilité',
         'Enquête',
         'Protection',
@@ -232,10 +232,10 @@ const organizations_involved = {
         'Auteur',
         'Incident'
     ],
-}
+]
 
-const type_of_scenario = {
-    Genre: [
+const type_of_scenario = [
+    Genre = [
         'Détective, mystère',
         'Aventure, détective',
         'Drame, policier',
@@ -243,7 +243,7 @@ const type_of_scenario = {
         'Action, thriller',
         'Horreur, thriller'
     ],
-    Introduction: [
+    Introduction = [
         '« Le club des détectives » – enquête',
         '« Les têtes brûlées » – aventure',
         '« Les curieux » – divulgation',
@@ -251,7 +251,7 @@ const type_of_scenario = {
         '« Les sauveurs » – héroïsme ',
         '« Dans les griffes de la terreur » – peur'
     ],
-    Confrontation: [
+    Confrontation = [
         '« L’arrestation » – dévoiler la vérité',
         '« Plus forts que jamais » – surmonter sa peur',
         '« La vérité » – soif de connaissance',
@@ -259,10 +259,10 @@ const type_of_scenario = {
         '« Gratitude » – reconnaissance',
         '« La vie » – survivre'
     ],
-}
+]
 
-const clues = {
-    Des_gens: [
+const clues = [
+    Des_gens = [
         'Enfants fanfarons',
         'Adolescents paniqués',
         'Mission secrète',
@@ -270,7 +270,7 @@ const clues = {
         'Vague de cambriolages',
         'Nouveaux plannings de travail'
     ],
-    Des_animaux: [
+    Des_animaux = [
         'Modification du comportement des troupeaux',
         'Animaux terrifiés',
         'Animaux agressifs',
@@ -278,7 +278,7 @@ const clues = {
         'Animaux doués de parole',
         'Animaux morts'
     ],
-    Des_creatures: [
+    Des_creatures = [
         'Prédateur monstrueux',
         'Extra-terrestres',
         'Créature sortie d’un film d’horreur',
@@ -286,7 +286,7 @@ const clues = {
         'Créatures féeriques',
         'Jouets animés'
     ],
-    Des_impressions: [
+    Des_impressions = [
         'Lumières étranges',
         'Sons mystérieux',
         'Odeur entêtante',
@@ -294,7 +294,7 @@ const clues = {
         'Goût métallique dans la bouche',
         'Hallucinations'
     ],
-    Des_objets: [
+    Des_objets = [
         'Tentes et traces de campement',
         'Arme chargée',
         'Outils perdus',
@@ -302,7 +302,7 @@ const clues = {
         'Coffre rempli de pièces',
         'Livre énigmatique'
     ],
-    Des_evenements: [
+    Des_evenements = [
         'Pouvoirs surnaturels',
         'Prophétie',
         'Maladie',
@@ -311,10 +311,10 @@ const clues = {
         'Interférences à la radio'
     ],
 
-}
+]
 
-const places = {
-    Lieu_clos: [
+const places = [
+    Lieu_clos = [
         'Une vieille bâtisse',
         'Une salle d’arcade',
         'Une station essence',
@@ -352,7 +352,7 @@ const places = {
         'Un magasin de cassettes vidéo',
         'Un grenier'
     ],
-    Lieu_ouvert: [
+    Lieu_ouvert = [
         'Une zone de baignade',
         'Un ponton',
         'Une prairie sauvage ou un pâturage',
@@ -390,10 +390,10 @@ const places = {
         'L’antenne radio',
         'Une cabane de jardin'
     ],
-}
+]
 
-const npc_personality = {
-    Trait_de_personnalité: [
+const npc_personality = [
+    Trait_de_personnalité = [
         'Souple, acrobate, musclé',
         'Optimiste, aime les enfants, intello',
         'Sûr de lui, cultivé, doué',
@@ -431,7 +431,7 @@ const npc_personality = {
         'Politicien, manipulateur, réactif',
         'Adore les ragots, curieux, fouineur'
     ],
-    Special_attribute: [
+    Special_attribute = [
         'Sportif',
         'Puéril',
         'Talentueux',
@@ -469,109 +469,185 @@ const npc_personality = {
         'Éloquence',
         'Curiosité'
     ],
-}
+]
 
-const creatures = {
-    Rongeur: [
-        'Discret 2', 'Vigilant 2', 'Esprit de meute 2'
+const creatures = [
+    Rongeur = [
+        '- Rongeur: ', 'Discret 2, Vigilant 2, Esprit de meute 2'
     ],
-    Lievre_Renard: [
-        'Rapide 3'
+    Lievre_Renard = [
+        '- Lievre ou Renard: ', 'Rapide 3'
     ],
-    Rapace: [
-        'Vol 3', 'Bec acéré 2'
+    Rapace = [
+        '- Rapace: ', 'Vol 3 ,Bec acéré 2'
     ],
-    Chien_de_chasse: [
-        'Morsure féroce 2', 'Rapide 2'
+    Chien_de_chasse = [
+        '- Chien de chasse: ', 'Morsure féroce 2, Rapide 2'
     ],
-    Chien_de_garde: [
-        'Excellente ouïe 2', 'Morsure féroce 2', 'Loyal 3'
+    Chien_de_garde = [
+        '- Chien de garde: ', 'Excellente ouïe 2 ,Morsure féroce 2, Loyal 3'
     ],
-    Loup: [
-        'Esprit de meute 2', 'Morsure féroce 2', 'Odorat 2'
+    Loup = [
+        '- Loup: ', 'Esprit de meute 2, Morsure féroce 2, Odorat 2'
     ],
-    Glouton_Blaireau: [
-        'Morsure féroce 3', 'Tenace 2'
+    Glouton_Blaireau = [
+        '- Glouton ou Blaireau: ', 'Morsure féroce 3, Tenace 2'
     ],
-    Chevreuil_Cheval: [
-        'Vigilant 2', 'Rapide 2'
+    Chevreuil_Cheval = [
+        '- Chevreuil ou Cheval: ', 'Vigilant 2, Rapide 2'
     ],
-    Elan_Cerf: [
-        'Gros 2', 'Ramure perforante 2'
+    Elan_Cerf = [
+        '- Elan ou Cerf: ', 'Gros 2, Ramure perforante 2'
     ],
-    Ours: [
-        'Gros 2', 'Morsure féroce 3', 'Griffes acérées 2'
+    Ours = [
+        '- Ours: ', 'Gros 2', 'Morsure féroce 3, Griffes acérées 2'
     ],
-    Serrure_electronique: [
-        'Mécanisme complexe 2'
+    Serrure_electronique = [
+        '- Serrure electronique: ', 'Mécanisme complexe 2'
     ],
-    Systeme_d_alarme: [
-        'Capteurs perfectionnés 2'
+    Systeme_d_alarme = [
+        '- Systeme d\'alarme: ', 'Capteurs perfectionnés 2'
     ],
-    Systeme_de_surveillance: [
-        'Détecteur de mouvements 2'
+    Systeme_de_surveillance = [
+        '- Systeme de surveillance: ', 'Détecteur de mouvements 2'
     ],
-    Robot_de_securite: [
-        'Capteurs perfectionnés 2', 'Structure métallique 2'
+    Robot_de_securite = [
+        '- Robot de securite: ', 'Capteurs perfectionnés 2, Structure métallique 2'
     ],
-    Cargo_Robot_pompier: [
-        'Hydrauliques puissants 2', 'Châssis massif 3', 'Structure métallique 3'
+    Cargo_Robot_pompier = [
+        '- Cargo Robot pompier: ', 'Hydrauliques puissants 2, Châssis massif 3, Structure métallique 3'
     ],
-    Drone_de_surveillance: [
-        'Capteurs perfectionnés 3', 'Vol 2'
+    Drone_de_surveillance = [
+        '- Drone de surveillance: ', 'Capteurs perfectionnés 3, Vol 2'
     ],
-    Petit_dinosaure: [
-        'Rapide 2'
+    Petit_dinosaure = [
+        '- Petit dinosaure: ', 'Rapide 2'
     ],
-    Velociraptor: [
-        'Bête féroce 3', 'Rapide comme l’éclair 3'
+    Velociraptor = [
+        '- Velociraptor: ', 'Bête féroce 3, Rapide comme l’éclair 3'
     ],
-    Pterodactyle: [
-        'Bête féroce 2', 'Vol 2'
+    Pterodactyle = [
+        '- Pterodactyle: ', 'Bête féroce 2, Vol 2'
     ],
-    Stegosaure_TRex: [
-        'Bête féroce 3', 'Tenace 2'
+    Stegosaure_TRex = [
+        '- Stegosaure ou T-Rex: ', 'Bête féroce 3, Tenace 2'
     ],
-    Zombie: [
-        'Mort-vivant 2', 'Excellente ouïe 2'
+    Zombie = [
+        '- Zombie: ', 'Mort-vivant 2, Excellente ouïe 2'
     ],
-    Momie: [
-        'Mort-vivant 3'
+    Momie = [
+        '- Momie: ', 'Mort-vivant 3'
     ],
-    Fantome: [
-        'Invisible 2', 'Terrifiant 2'
+    Fantome = [
+        '- Fantome: ', 'Invisible 2, Terrifiant 2'
     ],
-    Poltergeist: [
-        'Invisible 3', 'Terrifiant 2', 'Télékinésie 2'
+    Poltergeist = [
+        '- Poltergeist: ', 'Invisible 3, Terrifiant 2, Télékinésie 2'
     ],
-    Plante_carnivore_geante: [
-        'Terrifiant 2', 'Séduction 2'
+    Plante_carnivore_geante = [
+        '- Plante carnivore geante: ', 'Terrifiant 2, Séduction 2'
     ],
-    Lianes_empoisonnees: [
-        'Terrifiant 2', 'Tentacules empoisonnés 2', 'Nuage de spores 2'
+    Lianes_empoisonnees = [
+        '- Lianes empoisonnees: ', 'Terrifiant 2, Tentacules empoisonnés 2, Nuage de spores 2'
     ],
-    Plante_humanoide: [
-        'Tentacules 2', 'Camouflage 2', 'info3'
+    Plante_humanoide = [
+        '- Plante humanoide: ', 'Tentacules 2, Camouflage 2, info3'
     ],
-    Monstre_a_tentacules: [
-        'Terrifiant 3', 'Tentacules visqueux 3'
+    Monstre_a_tentacules = [
+        '- Monstre à tentacules: ', 'Terrifiant 3, Tentacules visqueux 3'
     ],
-    Myriapode_geant: [
-        'Terrifiant 3', 'Morsure féroce 2', 'Massif 2'
+    Myriapode_geant = [
+        '- Myriapode geant: ', 'Terrifiant 3, Morsure féroce 2, Massif 2'
     ],
-    Lutin_Gobelin: [
-        'Invisible 2', 'Sournois 2', 'info3'
+    Lutin_Gobelin = [
+        '- Lutin ou Gobelin: ', 'Invisible 2, Sournois 2, info3'
     ],
-    Gelee_informe: [
-        'Terrifiant 2', 'Vision fantasmagorique 2', 'Malléable 3'
+    Gelee_informe = [
+        '- Gelee informe: ', 'Terrifiant 2, Vision fantasmagorique 2, Malléable 3'
     ],
-    Creature_venue_d_un_portail_OW1: [
-        'Terrifiant 2', 'Force surhumaine 3'
+    Creature_venue_d_un_portail_OW1 = [
+        '- Creature venue d\'un portail OW-1: ', 'Terrifiant 2, Force surhumaine 3'
     ],
-    Creature_venue_d_une_autre_dimension_DIM9: [
-        'Terrifiant 2', 'Massif 3', 'Tentacules 2'
+    Creature_venue_d_une_autre_dimension_DIM9 = [
+        '- Creature venue d\'une autre dimension DIM9: ', 'Terrifiant 2, Massif 3, Tentacules 2'
     ]
 
+]
+
+const getRandomInt = (max) => {
+    return Math.floor(Math.random() * Math.floor(max));
 }
 
-console.log(creatures)
+const generator = () => {
+    // Random Antagonist
+    const randomAntagonistCategory = getRandomInt(antagonist.length);
+    const randomAntagonist = getRandomInt(antagonist[randomAntagonistCategory].length);
+    const getRandomAntagonist = antagonist[randomAntagonistCategory][randomAntagonist];
+    console.log('Antagoniste: ', getRandomAntagonist)
+    // Motivation or Instinct
+    const randomBehaviourCategory = getRandomInt(behaviour.length);
+    const randomBehaviour = getRandomInt(behaviour[randomBehaviourCategory].length);
+    const getRandomBehaviour = behaviour[randomBehaviourCategory][randomBehaviour];
+    console.log('Motivation ou instinct: ', getRandomBehaviour);
+    // Event & Anomalies
+    // -- Event
+    const randomEvent = getRandomInt(phenomena[0].length);
+    const getRandomEvent = phenomena[0][randomEvent];
+    console.log('Evènement: ', getRandomEvent)
+    // - Anomalies
+    const randomAnomalies = getRandomInt(phenomena[1].length);
+    const getRandomAnomalies = phenomena[1][randomAnomalies];
+    console.log('Anomalies: ', getRandomAnomalies);
+    // Organisation & Implications
+    // -- Organisation
+    const randomOrganisation = getRandomInt(organizations_involved[0].length);
+    const getRandomOrganisation = organizations_involved[0][randomOrganisation];
+    console.log('Organisation: ', getRandomOrganisation)
+    // -- Implications 
+    const randomImplication = getRandomInt(organizations_involved[1].length);
+    const getRandomImplication = organizations_involved[1][randomImplication];
+    console.log('Implications: ', getRandomImplication);
+    // Type of scenario
+    // -- Type
+    //console.log(type_of_scenario)
+    const randomType = getRandomInt(type_of_scenario[0].length);
+    const getRandomType = type_of_scenario[0][randomType];
+    console.log('Genre: ', getRandomType);
+    // -- Introduction
+    const randomIntro = getRandomInt(type_of_scenario[1].length);
+    const getRandomIntro = type_of_scenario[1][randomIntro]
+    console.log('Introduction: ', getRandomIntro);
+    // -- Confrontation
+    const randomConfrontation = getRandomInt(type_of_scenario[2].length);
+    const getRandomConfrontation = type_of_scenario[2][randomConfrontation]
+    console.log('Confrontation: ', getRandomConfrontation);
+    // Clues
+    const randomCluesCategory = getRandomInt(clues.length)
+    const randomClues = getRandomInt(clues[randomCluesCategory].length)
+    const getRandomClues = clues[randomCluesCategory][randomClues]
+    console.log('Indice: ', getRandomClues)
+    // Places
+    //console.log(places)
+    const randomPlaceCategory = getRandomInt(places.length);
+    const randomPlace = getRandomInt(places[randomPlaceCategory].length);
+    const getRandomPlace = places[randomPlaceCategory][randomPlace]
+    console.log('Lieu: ', getRandomPlace)
+    // NPC 
+    // -- Personality
+    //console.log(npc_personality)
+    const randomPersonality = getRandomInt(npc_personality[0].length);
+    const getRandomPersonality = npc_personality[0][randomPersonality];
+    console.log('Personnalité: ', getRandomPersonality)
+    // -- Attributes
+    const randomAttribute = getRandomInt(npc_personality[1].length);
+    const getRandomAttribute = npc_personality[1][randomAttribute];
+    console.log('Attribus spécial: ', getRandomAttribute)
+    // Creatures 
+    //console.log(creatures)
+    const randomCreature = getRandomInt(creatures.length)
+    const getRandomCreature = creatures[randomCreature]
+    console.log('Créature: ', getRandomCreature[0], getRandomCreature[1])
+
+}
+
+generator()
