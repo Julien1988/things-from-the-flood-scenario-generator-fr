@@ -7,5 +7,8 @@
     "test": "tftl"
   },
   "author": "Julien1988",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
 }
